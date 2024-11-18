@@ -2,5 +2,11 @@
   "name": "http-reno",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev":"tsc -b && node dist/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^22.9.0"
+  }
 }
